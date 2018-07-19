@@ -40,6 +40,8 @@ add_dependencies(subscriber
 
 target_link_libraries(subscriber ${catkin_LIBRARIES})
 
+set(CMAKE_EXPORT_COMPILE_COMMANDS ON)
+
 #############
 ## Install ##
 #############
